@@ -1,0 +1,65 @@
+div{
+    border: 1px dotted black;
+}
+.header{padding-left: 30px;}
+
+.header span{
+    color: gray;
+}
+.header img{
+    width: 100px;
+    height: 75px;
+}
+.left{
+    width: 20%;
+    float: left;
+    padding: 5px;
+}
+.center{
+    width: 57%;
+    float: left;
+    padding: 5px;
+}
+.plugin{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: justify;
+}
+.right{
+    width: 20%;
+    float: left;
+}
+.footer{
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.copyright{
+    float: left;
+    margin-left: 70px;
+    font-size: 12px;
+    color: #443e3e;
+}
+.designed{
+    float: right;
+    font-size: 12px;
+    margin-right: 20px;
+    color: #443e3e;
+}
+.designed span{font-weight: bold;}
+.menu ul li{
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}
+.menu ul li a{
+    color: dimgray;
+    font-style: normal;
+}
+.menu ul li a:hover{
+    color: black;
+}

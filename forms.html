@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web 1 (forms)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="block">
+        <form method="GET" id="register_form">
+            <input type="hidden" name="token" value="_token_w398knw3b4">
+            <p>
+                <label class="lbl">Login:</label>
+                <input type="text" placeholder="john" name="username">
+            </p>
+            <p>
+                <label class="lbl">Password</label>
+                <input type="password" name="pass" class="w5">
+            </p>
+            <p>
+                <select name="wish" class="w5">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+            </p>
+            <p>
+                <input type="file">
+            </p>
+            <input name="age" type="number" value="25">
+            <p>
+                <input type="submit" value="Send">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
